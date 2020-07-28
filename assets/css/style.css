@@ -62,6 +62,11 @@ li a {
     text-decoration: none;
 }
 
+.navbar-light .navbar-toggler {
+    color: #F8F8FF;
+    border-color: #F8F8FF;
+}
+
 /* Jumbo section */
 
 .jumbotron-section {
@@ -131,3 +136,33 @@ footer {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
+
+/*  Media Queries */
+
+@media (max-width: 767.98px) {
+.nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+display: block;
+}
+
+.nav-item-list {
+    padding-top: 10px;
+}
+
+.nav-item-list li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item-list li a {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+    color: #f8f8ff;
+}
+
+}
+
