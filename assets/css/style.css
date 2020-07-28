@@ -52,10 +52,6 @@ li a {
   color: #f8f8ff;
 }
 
-.social-links li a i {
-  font-size: 30px;
-}
-
 .nav-item a:hover {
   color: #d0d0d5;
   text-decoration: none;
@@ -117,7 +113,7 @@ li a {
 #contact {
   margin-top: 6.25rem;
   margin-bottom: 100px;
-  margin-left: 20px;
+    width: 50%;
 }
 
 #contact h2 {
@@ -133,6 +129,23 @@ li a {
 footer {
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.footer-container {
+    background-color: #0086FF;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.social-links li i {
+    justify-items: center;
+    color: #F8F8FF;
+    font-size: 30px;
+}
+
+.footer-container p {
+    color: #F8F8FF;
+    text-align: center;
 }
 
 /*  Media Queries */
