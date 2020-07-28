@@ -24,9 +24,8 @@ h2 {
 }
 
 .card-container {
-    margin-top: 6.25rem;
+  margin-top: 6.25rem;
 }
-
 
 /* buttons */
 
@@ -58,13 +57,13 @@ li a {
 }
 
 .nav-item a:hover {
-    color:#d0d0d5;
-    text-decoration: none;
+  color: #d0d0d5;
+  text-decoration: none;
 }
 
 .navbar-light .navbar-toggler {
-    color: #F8F8FF;
-    border-color: #F8F8FF;
+  color: #f8f8ff;
+  border-color: #f8f8ff;
 }
 
 /* Jumbo section */
@@ -81,11 +80,10 @@ li a {
 .jumbotron-container h1 {
   margin-top: 20px;
   padding-top: 50px;
-  padding-bottom: 10px;
+  font-size: 60px;
 }
 
 /* 3 Topics Section */
-
 
 /* Card Styles */
 
@@ -137,32 +135,78 @@ footer {
   margin-bottom: 20px;
 }
 
-
 /*  Media Queries */
 
 @media (max-width: 767.98px) {
-.nav {
+  .logo {
+    max-width: 75%;
+  }
+
+  .nav {
     margin-top: 40px;
     margin-bottom: 40px;
-display: block;
-}
+    display: block;
+  }
 
-.nav-item-list {
+  .nav-item-list {
     padding-top: 10px;
-}
+  }
 
-.nav-item-list li {
+  .nav-item-list li {
     padding-top: 20px;
     padding-bottom: 20px;
-}
+  }
 
-.nav-item-list li a {
+  .nav-item-list li a {
     padding: 10px;
     font-weight: 400;
     font-size: 25px;
     text-decoration: none;
     color: #f8f8ff;
+  }
+
+.jumbotron-section{
+  height: 100vh;
+        background: url('../images/mobile.png') no-repeat; 
+        background-size: cover;
+        background-position: center;
+        width: 100%;  
+        padding-top: 20px;
+}
+
+.jumbotron-container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 20px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    padding-top: 20px;
 }
 
 }
 
+@media (max-width: 575.98px) {
+
+.jumbotron-section{
+  height: 80vh;
+        background: url('../images/mobile.png') no-repeat; 
+        background-size: cover;
+        background-position: center;
+        width: 100%;  
+}
+
+.jumbotron-container {
+    margin-right: 20px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+
+}
+
+}
