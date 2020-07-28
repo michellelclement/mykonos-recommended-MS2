@@ -50,10 +50,16 @@ li a {
   font-weight: 100;
   font-size: 20px;
   text-decoration: none;
+  color: #f8f8ff;
 }
 
 .social-links li a i {
   font-size: 30px;
+}
+
+.nav-item a:hover {
+    color:#d0d0d5;
+    text-decoration: none;
 }
 
 /* Jumbo section */
