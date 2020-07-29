@@ -1,15 +1,6 @@
-$('.show-more-btn').click(function(){
-	$(this).siblings("p").removeClass('invisible').toggle('slow');
+$(document).ready(function () {
+  $(".invisible").hide();
 });
-
-/* $('#lighthouse-button').click(function(){
-	$('#lighthouse-p').removeClass('invisible').toggle('slow');
+$(".show-more-btn").click(function () {
+  $(this).siblings("p").removeClass('invisible').toggle("fast");
 });
-
-$('#venice-button').click(function(){
-	$('#venice-p').removeClass('invisible').toggle('slow');
-});
-
-$('#panagia-button').click(function(){
-	$('#panagia-p').removeClass('invisible').toggle('slow');
-}); */

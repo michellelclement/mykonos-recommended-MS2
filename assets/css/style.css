@@ -114,17 +114,16 @@ li a {
 
 /* contact section */
 
-#contactForm {
-  margin-top: 6.25rem;
-  margin-bottom: 100px;
-    width: 50%;
+.contact-container {
+margin-top: 6.25rem;
+margin-bottom: 100px;
 }
 
-#contactForm h2 {
+.form-text h2 {
   margin-left: 0px;
 }
 
-#contactForm p {
+.form-text p {
   margin-bottom: 3rem;
 }
 
