@@ -24,6 +24,10 @@ h2 {
 }
 
 .card-container {
+  margin-top: 3rem;
+}
+
+#attractions-section {
   margin-top: 6.25rem;
 }
 
@@ -110,17 +114,17 @@ li a {
 
 /* contact section */
 
-#contact {
+#contactForm {
   margin-top: 6.25rem;
   margin-bottom: 100px;
     width: 50%;
 }
 
-#contact h2 {
+#contactForm h2 {
   margin-left: 0px;
 }
 
-#contact p {
+#contactForm p {
   margin-bottom: 3rem;
 }
 
@@ -217,9 +221,6 @@ footer {
 .jumbotron h1 {
     font-size: 50px;
     padding-top: 20px;
-}
-
-
 }
 
 }

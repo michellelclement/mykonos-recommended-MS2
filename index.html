@@ -16,8 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Mykonos Recommended</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <title>Mykonos Recommended</title>  
+
   </head>
 
   <body>
@@ -152,8 +153,8 @@
                 alt="..."
               />
               <h5 class="card-title">Mykonos Windmills</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn" id="windmills-button">Tell me more...</a>
+              <p class="card-text invisible" id="windmills-p">
                 This well-known photography spot can be found in Mykonos City
                 and is an iconic feature of Mykonos. The windmills were
                 originally built in the 16th century by the Venetians but ceased
@@ -172,8 +173,8 @@
                 alt="..."
               />
               <h5 class="card-title">Armenistis Lighthouse</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn" id="lighthouse-button">Tell me more...</a>
+              <p class="card-text invisible" id="lighthouse-p">
                 Looking for the perfect place to watch the sunset? Head up to
                 the Armenistis Lighthouse situated on the north-western tip of
                 the island. Built as a tribute to the maritime history of
@@ -186,13 +187,13 @@
           <div class="card">
             <div class="card-body">
               <img
-                src="assets/images/test.jpg"
+                src="assets/images/little-venice.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="A view of the area of Little Venice"
               />
               <h5 class="card-title">Little Venice</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn" id="venice-button">Tell me more...</a>
+              <p class="card-text invisible" id="venice-p">
                 Mykonos was once under Venetian rule (13th century) and Little
                 Venice strongly resembles this Italian city. The colourful, two
                 buildings in this area of Mykonos city are now home to trendy
@@ -211,8 +212,8 @@
                 alt="..."
               />
               <h5 class="card-title">Panagia Paraportiani</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn" id="panagia-button">Tell me more...</a>
+              <p class="card-text invisible" id="panagia-p">
                 Found in Mykonos city, this church is among the most
                 photographed in the world! It is located right by the see in the
                 Kastro neighbourhood of the city. What is interesting about this
@@ -238,8 +239,8 @@
                 alt="..."
               />
               <h5 class="card-title">Hippie Fish</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 This beautiful waterside fish restaurant is one of the most
                 famous gourmet restaurants on Mykonos. It was first built in the
                 1960 and rose to fame more so after being featured in the 1989
@@ -258,8 +259,8 @@
                 alt="..."
               />
               <h5 class="card-title">Kounelas Fish Taverna</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 Our favourite fish restaurant in Mykonos city. It has been there
                 since 1967 and serves quality, fresh fish, squid, octopus,
                 lobster and shellfish, as well as other dishes to suit all
@@ -277,8 +278,8 @@
                 alt="..."
               />
               <h5 class="card-title">Lefteris GrillHouse</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 Found right by Ornos beach, this restaurant has been our
                 favourite find and we have been back multiple times. Mykonos
                 isn’t cheap, but the food at Lefteris GrillHouse is not only
@@ -297,8 +298,8 @@
                 alt="..."
               />
               <h5 class="card-title">Bakalo Greek Eatery</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 This treasure was recommended by our hotel waiter and it did not
                 disappoint. Found on the edge of the city, this tiny restaurant
                 offers incredibly tasty traditional Greek dishes.
@@ -322,8 +323,8 @@
                 alt="..."
               />
               <h5 class="card-title">Mykonos Town</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 The main town on Mykonos (also known as Chora & Mykonos City) is
                 a stunningly beautiful town made up by a made of thin, white
                 washed lanes featuring cute boutiques, restaurants and bars. You
@@ -343,8 +344,8 @@
                 alt="..."
               />
               <h5 class="card-title">Ornos</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 The streets of tiny Ornos are lined with tavernas and hotels,
                 with a beach to each side. Korfos beach to the north has strong
                 winds and popular with kite surfers. Ornos Beach to the south is
@@ -359,8 +360,8 @@
             <div class="card-body">
               <img src="assets/images/ano.jpg" class="card-img-top" alt="..." />
               <h5 class="card-title">Ano Mera</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 This quiet inland village is the second largest on the island.
                 It is home to the monastery Panagia Tourliani, as well as tasty
                 local tavernas and cafes. There are many walking trails around
@@ -379,8 +380,8 @@
                 alt="..."
               />
               <h5 class="card-title">Platis Gialos</h5>
-              <a href="#" class="btn btn-primary btn-block">Tell me more...</a>
-              <p class="card-text">
+              <a class="btn btn-primary btn-block show-more-btn">Tell me more...</a>
+              <p class="card-text invisible">
                 This lively beachside village offers many waterfront bars,
                 tavernas, restaurants and water sports, including yachting,
                 windsurfing and parasailing. A great spot for a quick stop, or
@@ -393,7 +394,7 @@
     </div>
 
     <!-- Contact Form Section -->
-    <div class="container" id="contact">
+    <div class="container" id="contactForm">
       <div class="row">
         <div class="col-12">
           <h2>Contact Us</h2>
@@ -405,9 +406,10 @@
       </div>
       <div class="row">
         <div class="col">
-          <form>
+          <form onsubmit="return sendMail(this);">
             <input
               type="text"
+              name="name"
               class="form-control"
               id="name"
               placeholder="Name"
@@ -415,18 +417,23 @@
             />
             <input
               type="email"
+              name="emailaddress"
               class="form-control"
-              id="form-email"
+              id="email"
               placeholder="Email Address"
               required
             />
             <textarea
               type="text"
+              name="message"
               class="form-control"
-              id="message-box"
+              id="message"
               placeholder="Write your message or ask your question here..."
               required
             ></textarea>
+            <button type="submit" class="btn btn-primary btn-block">
+              Submit
+            </button>
           </form>
         </div>
       </div>
@@ -476,5 +483,17 @@
       src="https://kit.fontawesome.com/04777e1f35.js"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="assets/js/sendEmail.js"></script>
+    <script type="text/javascript" src="assets/js/toggle.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_hLjxzFPIZHlx6sgqI3rbX");
+      })();
+    </script>
   </body>
 </html>
