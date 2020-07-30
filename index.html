@@ -68,6 +68,9 @@
             <a href="#areas-section">Areas</a>
           </li>
           <li class="nav-item">
+            <a href="#map-section">Map of Mykonos</a>
+          </li>
+          <li class="nav-item">
             <a href="#contact">Contact Us</a>
           </li>
         </ul>
@@ -138,6 +141,10 @@
     </div>
 
     <!-- map section -->
+    <div class="container-fluid map-container" id="map-section">
+      <h2>Search the map</h2>
+      <div id="map"></div>
+    </div>
 
     <!-- Attractions section -->
     <div class="container-fluid card-container" id="attractions-section">
@@ -426,55 +433,55 @@
 
     <!-- Contact Form Text -->
     <div class="contact-container">
-    <section class="container form-text-container">
-      <div class="row text-center contact-section">
-        <div class="col-12 form-text">
-          <h2>Contact Us</h2>
-          <p>
-            Do you have a Mykonos question or query? Feel free to send a message
-            via the form below.
-          </p>
+      <section class="container form-text-container">
+        <div class="row text-center contact-section">
+          <div class="col-12 form-text">
+            <h2>Contact Us</h2>
+            <p>
+              Do you have a Mykonos question or query? Feel free to send a
+              message via the form below.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Form -->
-    <div class="container form-container ">
-      <div class="row">
-        <div class="col-md-6 offset-md-3">
-          <form onsubmit="return sendMail(this);">
-            <input
-              type="text"
-              name="name"
-              class="form-control"
-              id="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              name="emailaddress"
-              class="form-control"
-              id="email"
-              placeholder="Email Address"
-              required
-            />
-            <textarea
-              type="text"
-              name="message"
-              class="form-control"
-              id="message"
-              placeholder="Write your message or ask your question here..."
-              required
-            ></textarea>
-            <button type="submit" class="btn btn-primary btn-block">
-              Submit
-            </button>
-          </form>
+      <!-- Contact Form -->
+      <div class="container form-container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form onsubmit="return sendMail(this);">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="emailaddress"
+                class="form-control"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+              <textarea
+                type="text"
+                name="message"
+                class="form-control"
+                id="message"
+                placeholder="Write your message or ask your question here..."
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-primary btn-block">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-</div>
     <!-- Footer Section -->
     <footer>
       <div class="container-fluid footer-container">
@@ -525,7 +532,11 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
     ></script>
-
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0jwegFifmr6pXwr_bx-TRAWvFqIDBmVA&callback=initMap"
+    ></script>
+    <script src="assets/js/map.js"></script>
     <script type="text/javascript">
       (function () {
         emailjs.init("user_hLjxzFPIZHlx6sgqI3rbX");

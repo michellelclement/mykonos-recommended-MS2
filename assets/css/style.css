@@ -90,6 +90,19 @@ li a {
 
 /* 3 Topics Section */
 
+
+
+/* MAP Section */
+div#map {
+    height: 60vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#map-section h2 {
+    margin-top: 3rem;
+}
+
 /* Card Styles */
 
 .card {
