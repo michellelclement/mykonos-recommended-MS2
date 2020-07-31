@@ -1,3 +1,5 @@
+// Code as directed by Course material and EmailJS
+
 $(document).ready(function () {
   $(".invisible").hide();
 });
