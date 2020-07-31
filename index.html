@@ -140,10 +140,30 @@
       </div>
     </div>
 
-    <!-- map section -->
-    <div class="container-fluid map-container" id="map-section">
-      <h2>Search the map</h2>
-      <div id="map"></div>
+    <!-- Map Section -->
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h2>Search the map</h2>
+          <p>All of our reccomendations are marked on the map below in the blue icons. <br>
+          However, if you would like to look for something specific, such as restaurants, beach bars etc, start typing in the search bar below.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <input
+            class="form-control"
+            id="search"
+            type="text"
+            placeholder="Search..."
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div id="map"></div>
+        </div>
+      </div>
     </div>
 
     <!-- Attractions section -->
@@ -534,13 +554,12 @@
     ></script>
 
     <!-- Map Scripts -->
-	<script src="assets/js/map.js"></script>
+    <script src="assets/js/map.js"></script>
     <script
       defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0jwegFifmr6pXwr_bx-TRAWvFqIDBmVA&callback=initMap"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0jwegFifmr6pXwr_bx-TRAWvFqIDBmVA&callback=initMap&libraries=places"
     ></script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-
 
     <!-- Email Script -->
     <script type="text/javascript" src="assets/js/sendEmail.js"></script>
