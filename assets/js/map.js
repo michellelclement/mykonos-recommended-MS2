@@ -9,55 +9,51 @@ function initMap() {
 var markers = [
 {
     latlong:{lat:37.4445,lng:25.3254}, // Mykonos Windmills
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/attraction.png',
     content:'<h4>Mykonos Windmills</h4>'},
     {
     latlong:{lat:37.4896,lng:25.3145}, //Armenistis Lighthouse
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/attraction.png',
     content:'<h4>Armenistis Lighthouse</h4>'},
     {
     latlong:{lat:37.4466,lng:25.3260}, //Little Venice
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/attraction.png',
     content:'<h4>Little Venice</h4>'},
     {
     latlong:{lat:37.4471,lng:25.3257}, //Panagia Paraportiani
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/attraction.png',
     content:'<h4>Panagia Paraportiani</h4>'},
     {
     latlong:{lat:37.4215,lng:25.3113}, // Hippie Fish
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/restaurant.png',
     content:'<h4>Hippie Fish</h4>'},
     {
     latlong:{lat:37.447133,lng:25.327103}, //Kounelas Fish Taverna
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/restaurant.png',
     content:'<h4>Kounelas Fish Taverna</h4>'},
     {
     latlong:{lat:37.423499,lng:25.323656}, //Lefteris GrillHouse
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/restaurant.png',
     content:'<h4>Lefteris GrillHouse</h4>'},
     {
     latlong:{lat:37.4438,lng:25.3284}, //Bakalo Greek Eatery
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-    content:'<h4>Bakalo Greek Eatery</h4>'},
-    {
-     latlong:{lat:37.4438,lng:25.3284}, //Bakalo Greek Eatery
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/restaurant.png',
     content:'<h4>Bakalo Greek Eatery</h4>'},
     {
     latlong:{lat:37.4467,lng:25.3289}, // Mykonos Town
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/area.png',
     content:'<h4>Mykonos Town</h4>'},
     {
     latlong:{lat:37.4235,lng:25.3233}, //Ornos
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/area.png',
     content:'<h4>Ornos</h4>'},
     {
     latlong:{lat:37.4475,lng:25.3912}, //Ano Mera
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/area.png',
     content:'<h4>Ano Mera</h4>'},
     {
     latlong:{lat:37.4138,lng:25.3470}, //Platis Gialos
-    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    iconImage:'assets/images/area.png',
     content:'<h4>Platis Gialos</h4>'}
 ];
 
