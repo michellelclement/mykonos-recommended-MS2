@@ -92,15 +92,23 @@ li a {
 
 
 
-/* MAP Section */
-div#map {
-    height: 60vh;
-    margin-left: 20px;
-    margin-right: 20px;
+/* Map Section */
+
+.map-container {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
-#map-section h2 {
-    margin-top: 3rem;
+.map-container p {
+    padding-bottom: 2rem;
+}
+
+#search {
+    margin-bottom: 2rem;
+
+}
+div#map {
+    height: 60vh;
 }
 
 /* Card Styles */
