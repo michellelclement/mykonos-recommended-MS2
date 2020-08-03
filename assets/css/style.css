@@ -40,8 +40,8 @@ h2 {
 }
 
 .show-more-btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    color: #f8f8ff;
+  cursor: pointer;
+  color: #f8f8ff;
 }
 
 /* Header section */
@@ -90,25 +90,42 @@ li a {
 
 /* 3 Topics Section */
 
+.topics-container {
+   margin-top: 4rem;
+   margin-bottom: 4rem; 
+}
+
+.topics-container h4 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topics-container img {
+    padding-bottom: 0;
+}
 
 
 /* Map Section */
 
 .map-container {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.map-container h2 {
+  margin-left: 0;
 }
 
 .map-container p {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 #search {
-    margin-bottom: 2rem;
-
+  margin-bottom: 2rem;
 }
 div#map {
-    height: 60vh;
+  height: 60vh;
 }
 
 /* Card Styles */
@@ -124,10 +141,10 @@ div#map {
 }
 
 .card-title {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   font-weight: 400;
   font-size: 20px;
+  min-height: 48px;
 }
 
 .card-body p {
@@ -141,8 +158,8 @@ div#map {
 /* contact section */
 
 .contact-container {
-margin-top: 6.25rem;
-margin-bottom: 100px;
+  margin-top: 6.25rem;
+  margin-bottom: 100px;
 }
 
 .form-text h2 {
@@ -161,20 +178,20 @@ footer {
 }
 
 .footer-container {
-    background-color: #0086FF;
-    padding-top: 30px;
-    padding-bottom: 20px;
+  background-color: #0086ff;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .social-links li i {
-    justify-items: center;
-    color: #F8F8FF;
-    font-size: 30px;
+  justify-items: center;
+  color: #f8f8ff;
+  font-size: 30px;
 }
 
 .footer-container p {
-    color: #F8F8FF;
-    text-align: center;
+  color: #f8f8ff;
+  text-align: center;
 }
 
 /*  Media Queries */
@@ -207,45 +224,42 @@ footer {
     color: #f8f8ff;
   }
 
-.jumbotron-section{
-  height: 100vh;
-        background: url('../images/mobile.png') no-repeat; 
-        background-size: cover;
-        background-position: center;
-        width: 100%;  
-        padding-top: 20px;
-}
+  .jumbotron-section {
+    height: 100vh;
+    background: url("../images/mobile.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 20px;
+  }
 
-.jumbotron-container {
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-left: 20px;
-}
+  .jumbotron-container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 20px;
+  }
 
-.jumbotron h1 {
+  .jumbotron h1 {
     font-size: 50px;
     padding-top: 20px;
-}
-
+  }
 }
 
 @media (max-width: 575.98px) {
+  .jumbotron-section {
+    height: 80vh;
+    background: url("../images/mobile.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
 
-.jumbotron-section{
-  height: 80vh;
-        background: url('../images/mobile.png') no-repeat; 
-        background-size: cover;
-        background-position: center;
-        width: 100%;  
-}
-
-.jumbotron-container {
+  .jumbotron-container {
     margin-right: 20px;
-}
+  }
 
-.jumbotron h1 {
+  .jumbotron h1 {
     font-size: 50px;
     padding-top: 20px;
-}
-
+  }
 }
