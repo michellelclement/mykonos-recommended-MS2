@@ -9,9 +9,13 @@ $(".show-more-btn").click(function () {
 
 $(function(){
    $(".show-more-btn").click(function () {
-      $(this).text(function(text){
-          return text === "Tell me less..." ? "Tell me more..." : "Tell me less...";
-      })
-   });
+
+        if ($(this).text() === 'Tell me more...') {
+            $(this).text('Tell me less...')
+    
+        } else {
+            $(this).text('Tell me more...')
+        }
+    });
 })
 
