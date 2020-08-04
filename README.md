@@ -8,7 +8,7 @@ The purpose of this website is to provide the user with a list of organised, tri
 
 You can view the live website here: [Mykonos Recommended](https://michellelclement.github.io/mykonos-recommended-MS2/)
 
-![Mykonos Recommended mockups on various devices](/readme_docs/mockups.jpg)
+![Mykonos Recommended mockups on various devices](assets/readme_docs/mockups.jpg)
 
 ## UX
 The site owner has visited Mykonos many times over the years and is regularly asked for their recommendations. The idea for Mykonos Recommended was born from the ability to provide those island recommendations in a clear and easy way, rather than repeating the details over and over each time. Mykonos Recommended also provides the site owner with an outlet to a wider audience than just friends and family, with the ability to monetise recommendations in the future.
@@ -34,7 +34,7 @@ I created wireframes to show the website layout on varying screen sizes, and wit
 
 Below are the top half of the wireframes for each screen size with the toggle buttons off/closed. [You can view all of the wireframes here](assets/readme_docs/wireframes.pdf)
 
-![Homepage wireframes](/readme-docs/wireframes.png)
+![Homepage wireframes](assets/readme-docs/wireframes.png)
 
 ## Scope
 * Users can find the location of recommended attractions, restaurants or areas on a map.
@@ -70,7 +70,7 @@ I used a number of languages, frameworks and tools to construct my website. Thes
 
 ## Tools Used
 * [Balsamiq](https://balsamiq.com/) - Used to create my wireframes, showing the positioning of elements on varying screen sizes.
-* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - Photoshop was used to create my map image
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - Photoshop was used to create the website logo.
 * [W3C HTML Validator](https://validator.w3.org/) - I used this tool to check the validity of my HTML code.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - I used this tool to check the validity of my CSS code.
 * [Autoprefixed](https://autoprefixer.github.io/) - I used this tool to check the prefixes of my CSS code.
@@ -97,10 +97,10 @@ I wanted to keep the rest of the site nice, clear and simple. Therefore, I decid
 **Colours:** 
 In keeping with a clean and clear website, I opted to use just one main accent colour to complement the lovely colours of the photos. Greece, and the Greek Islands, are known for this bright blue, so I chose one which I felt was a nice modern blue, and once which would be great for text to set out on. This was coupled with a light grey for hover state on the navbar, as well as a dark grey and off white for the copy.
 
-Blue: #0086FF
-Hover grey nav bar: #d0d0d5
-Off White: F8F8FF
-Grey: 222222
+* Blue accent colour: #0086FF
+* Hover grey nav bar: #d0d0d5
+* Off White: F8F8FF
+* Grey: 222222
 
 ## Deployment
 I deployed Mykonos Recommended GitHub pages using the following steps:
@@ -133,6 +133,6 @@ Special Thank you to my fantastic mentor ADEGBENGA ADEYE for helping me with my 
 **Additional Support**
 Due to the complex nature of Google APIs, I followed a couple of tutorials to help implement adding multiple custom markers with custom icons, plus installing the Google Places with a search bar. Both tutorials were fantastic and really helped to cement how to do this with more explanation on the why, and how, compared to Google’s documentation. I have marked with comments on the map.js file the code which was assisted by both tutorials. In both cases, I implemented as much of the code myself as possible using my knowledge from the course material and Google’s Documentation, and then the tutorials helped implement the exact features and functionality I desired.
 
-[Google Maps Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
-[Google Maps Places Tutorial](https://www.youtube.com/watch?v=oVr6unKZbg4)
+* [Google Maps Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
+* [Google Maps Places Tutorial](https://www.youtube.com/watch?v=oVr6unKZbg4)
 
