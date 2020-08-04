@@ -14,10 +14,10 @@
 </head>
 
 <body>
-	<!-- Header Section -->
-
+	
+    <!-- Header Section -->
 	<div class="container-sm header-container">
-		<div class="row header-row text-center">
+		<div class="row text-center">
 			<div class="col-12">
 				<a href="index.html">
 					<img
@@ -36,15 +36,15 @@
         class="navbar-toggler navbar-dark"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-dark navbar-toggler-icon"></span>
       </button>
 
-		<div class="collapse navbar-collapse justify-content-center nav-item-list" id="navbarTogglerDemo02">
+		<div class="collapse navbar-collapse justify-content-center nav-item-list" id="navbarToggler">
 			<ul class="nav justify-content-center">
 				<li class="nav-item">
 					<a href="#attractions-section">Attractions</a>
@@ -65,8 +65,7 @@
 		</div>
 	</nav>
 
-	<!-- Jumbo Section -->
-
+	<!-- Jumbotron Section -->
 	<div class="jumbotron jumbotron-fluid jumbotron-section">
 		<div class="container jumbotron-container">
 			<h1 class="display-4">
@@ -82,6 +81,7 @@
 			<div class="col-md card">
 				<img
             src="assets/images/attractions.jpg"
+            alt="A Greek church bell infront of the sparkling blue sea"
             class="card-img-top"
           />
 				<div class="shadow p-3 mb-5 bg-white rounded">
@@ -92,6 +92,7 @@
 			<div class="col-md">
 				<img
             src="assets/images/restaurants.jpg"
+            alt="A delicious plate of grilled Octopus"
             class="card-img-top"
           />
 				<div class="shadow p-3 mb-5 bg-white rounded">
@@ -102,6 +103,7 @@
 			<div class="col-md">
 				<img
                 src="assets/images/areas.jpg"
+                alt="A Beach scene in Mykonos featuring a Greek church"
                 class="card-img-top"
               />
 				<div class="shadow p-3 mb-5 bg-white rounded">
@@ -112,14 +114,13 @@
 		</div>
 	</div>
 
-
 	<!-- Map Section -->
 	<div class="container-fluid map-container" id="map-section">
 		<div class="row text-center map-text">
 			<div class="col-md-6 offset-md-3">
 				<h2>Search the map</h2>
 				<p>
-					All of our reccomendations are marked on the map below in the blue
+					All of our recomendations are marked on the map below in the blue
 					icons. <br />
             However, if you would like to look for something specific, such as
             restaurants, beach bars etc, start typing in the search bar below.
@@ -313,7 +314,7 @@
 			</div>
 		</div>
 
-		<!-- Areas section -->
+		<!-- Recommended Areas section -->
 		<div class="container-fluid card-container" id="areas-section">
 			<h2>Recommended Areas of Mykonos</h2>
 			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
@@ -432,7 +433,6 @@
                 required
               />
 							<textarea
-                type="text"
                 name="message"
                 class="form-control"
                 id="message"
@@ -447,6 +447,7 @@
 				</div>
 			</div>
 		</div>
+        
 		<!-- Footer Section -->
 		<footer>
 			<div class="container-fluid footer-container">
@@ -485,8 +486,8 @@
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 		</script>
 		<script src="https://kit.fontawesome.com/04777e1f35.js" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="assets/js/toggle.js"></script>
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+		<script src="assets/js/toggle.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
 		<!-- Map Scripts -->
 		<script src="assets/js/map.js"></script>
@@ -496,8 +497,8 @@
 		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 
 		<!-- Email Script -->
-		<script type="text/javascript" src="assets/js/sendEmail.js"></script>
-		<script type="text/javascript">
+		<script src="assets/js/sendEmail.js"></script>
+		<script>
 			(function () {
         emailjs.init("user_hLjxzFPIZHlx6sgqI3rbX");
       })();
