@@ -34,7 +34,8 @@ I created wireframes to show the website layout on varying screen sizes, and wit
 
 Below are the top half of the wireframes for each screen size with the toggle buttons off/closed. [You can view all of the wireframes here](assets/readme_docs/wireframes.pdf)
 
-![Homepage wireframes](assets/readme-docs/wireframes.png)
+![Homepage wireframes](assets/readme_docs/wireframes.png)
+
 
 ## Scope
 * Users can find the location of recommended attractions, restaurants or areas on a map.
@@ -99,8 +100,8 @@ In keeping with a clean and clear website, I opted to use just one main accent c
 
 * Blue accent colour: #0086FF
 * Hover grey nav bar: #d0d0d5
-* Off White: F8F8FF
-* Grey: 222222
+* Off White: #F8F8FF
+* Grey: #222222
 
 ## Deployment
 I deployed Mykonos Recommended GitHub pages using the following steps:
