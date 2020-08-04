@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html,
 body {
   width: 100%;
@@ -36,7 +43,7 @@ h2 {
 .btn-primary {
   color: #f8f8ff;
   background-color: #0086ff;
-  border-color: #0086ff;
+  border: none;
 }
 
 .show-more-btn:not(:disabled):not(.disabled) {
@@ -48,7 +55,7 @@ h2 {
 
 .header-container {
   margin-top: 30px;
-  margin-block-end: 30px;
+  margin-bottom: 30px;
 }
 
 /* Nav section */
@@ -71,13 +78,15 @@ li a {
   border-color: #f8f8ff;
 }
 
-/* Jumbo section */
+/* Jumbotron section */
 
 .jumbotron-section {
   height: 80vh;
   background: url(../images/jumbo-image.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: transparent;
 }
