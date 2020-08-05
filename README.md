@@ -93,24 +93,24 @@ W3C CSS Validator
 
 **User stories**
 
-* * As a user who is looking to visit, or currently visiting Mykonos, I want to learn more about the best things to see on Mykonos, recommended restaurants on Mykonos, and learn about the different areas of Mykonos.
+*As a user who is looking to visit, or currently visiting Mykonos, I want to learn more about the best things to see on Mykonos, recommended restaurants on Mykonos, and learn about the different areas of Mykonos.*
 * Recommendations on the website have been split into 3 simple and clear categories: Attractions, Restaurants and Areas.
 * These sections are available to the view upon landing on the site in the simple and clean navigation.
 * The 3 categories are again available below the jumbotron, with images to represent each category, a title, and clear ‘Show Me’ call to action buttons.
 * The 3 categories are also titled with headers clearly to match the category names.
 * All of these options give the user multiple ways to find the content for the best things to see on Mykonos.
 
-* * As a user, I want to be able to contact the admin of the website to be able to ask for more information.
+*As a user, I want to be able to contact the admin of the website to be able to ask for more information.*
 * A clear Contact Us navigation item is visible on the main navigation bar as soon as the user lands on the site. 
 * This links the user to a Contact Us form at the bottom of the homepage, making it easy for the user to send a message to the site owner, and not have to leave the site to send the message from an email client.
  
-* * As a user, I want to be able to locate the recommended places shown to me on the website on a map.
+*As a user, I want to be able to locate the recommended places shown to me on the website on a map.*
 * All recommendations have individually added to a Google Map embedded into the website.
 * Each item has been added to the map using 1 of 3 custom icons which represents each of the 3 categories, making the markers clear and distinguishable.
 * Each marker includes a popup label includes the same image and title of the recommendation as the listed recommendation for familiarity and ease of location, as well as a link back to the recommendation listed on the homepage.
 * The map can be found easily by the user via the main navigation item ‘Map’
 
-* * As a user, I want to be able to find other places on a map, such as restaurants, cafes, beaches and more.
+*As a user, I want to be able to find other places on a map, such as restaurants, cafes, beaches and more.*
 * By installing the Google Places API and a search box, users are able type in a search term or specific place.
 * Results are returned by Google Places and marked on the map with a red marker.
 * The map and search bar can be found easily by the user via the main navigation item ‘Map’ 
@@ -171,4 +171,4 @@ Due to the complex nature of Google APIs, I followed a couple of tutorials to he
 * [Google Maps Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
 * [Google Maps Places Tutorial](https://www.youtube.com/watch?v=oVr6unKZbg4)
 
-As advised by my mentor, I decided to add a 'Back To Top' scroll button due to the page being quite long on mobile devices. This isn't something which has been covered in the course material, so I followed the instructions to do this as porovided by [W3Schools](https://www.w3schools.com/)
+As advised by my mentor, I decided to add a 'Back To Top' scroll button due to the page being quite long on mobile devices. This isn't something which has been covered in the course material, so I followed the instructions to do this as porovided by [W3Schools](https://www.w3schools.com/).
