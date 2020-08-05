@@ -51,6 +51,21 @@ h2 {
   color: #f8f8ff;
 }
 
+
+#to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px; 
+  z-index: 99; 
+  color: #f8f8ff;
+  background-color: #0086ff;
+  border: none;
+  border-radius: 20px;
+  font-size: 40px;
+  padding: 5px 15px;
+}
+
 /* Header section */
 
 .header-container {
@@ -179,6 +194,10 @@ div#map {
   margin-bottom: 3rem;
 }
 
+.form-control {
+    margin-bottom: 1rem;
+}
+
 /* Footer section */
 
 footer {
@@ -274,5 +293,11 @@ footer {
   .card-container h2 {
     font-size: 2.0rem;
     padding-top: 20px;
+  }
+
+  #to-top-btn {
+  bottom: 10px; 
+  right: 10px; 
+
   }
 }
