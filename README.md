@@ -117,6 +117,8 @@ W3C CSS Validator
 
 
 **Further testing**
+* The website as tested on Google Chrome, Internet Explorer and Firefox browsers.
+* The website was viewed on a variety of devices including Desktop, Laptop, iPad, and the mobile options provided by Google chrome developer tools.
 
 
 ## Design
