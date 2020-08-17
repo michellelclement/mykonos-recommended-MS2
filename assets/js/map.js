@@ -7,7 +7,7 @@ function initMap() {
   };
 
 
-// Code as instructed by Google Documentation along with YouTube Tutorial by Traversy Media. Link in ReadMe
+// Code as instructed by Google Documentation along with following the YouTube Tutorial by Traversy Media. Link in ReadMe
 
   var map = new google.maps.Map(document.getElementById("map"), options);
 
@@ -102,6 +102,7 @@ function initMap() {
 
       marker.addListener("click", function () {
         infoWindow.open(map, marker);
+        infowindow.close();
       });
     }
   }
