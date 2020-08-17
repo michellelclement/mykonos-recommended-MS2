@@ -117,23 +117,23 @@ function initMap() {
     searchBox.setBounds(map.getBounds());
   });
 
-  var markers = [];
+  var markersPlaces = [];
 
   searchBox.addListener("places_changed", function () {
     var places = searchBox.getPlaces();
 
     if (places.length == 0) return;
 
-    markers.forEach(function (m) {
+    markersPlaces.forEach(function (m) {
       m.setMap(null);
     });
-    markers = [];
+    
 
     var bounds = new google.maps.LatLngBounds();
     places.forEach(function (p) {
       if (!p.geometry) return;
 
-      markers.push(
+      markersPlaces.push(
         new google.maps.Marker({
           map: map,
           title: p.name,
