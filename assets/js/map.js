@@ -7,7 +7,7 @@ function initMap() {
   };
 
 
-// Code as instructed by Google Documentation along with following the YouTube Tutorial by Traversy Media. Link in ReadMe
+// Code as instructed by Google Documentation along with following the YouTube Tutorial by Traversy Media. Link in README
 
   var map = new google.maps.Map(document.getElementById("map"), options);
 
@@ -85,7 +85,6 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: props.latlong,
       map: map,
-      //icon:props.iconImage
     });
 
     // check for customIcon

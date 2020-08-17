@@ -28,7 +28,7 @@ Using the above user stories, I put together some simple wireframes using [Balsa
 
 I decided that adding the full description of each recommendation would make pages too long, and take away from the clean, image lead design for the site I was after. Instead, I opted to include the jQuery ‘.toggle()’ function I had learnt in a previous module to trigger the full description to be displayed upon a button click.
 
-I also decided there was no need to create a multi-page website, so kept the website to one lovely clean page.
+I also decided there was no need to create a multi-page website, so I kept the website to one lovely clean page.
 
 I created wireframes to show the website layout on varying screen sizes, and with the toggle text both displaying and hidden.
 
@@ -80,7 +80,7 @@ I used a number of languages, frameworks and tools to construct my website. Thes
 ## Testing
 
 **W3C HTML Validator**
-* Ran index.html though validator to check there were no syntax errors: 
+* Ran index.html through validator to check there were no syntax errors: 
     * Failed – 3 images were missing alt tags
         * Alt tags added and tested again
 	* Passed
@@ -88,7 +88,7 @@ I used a number of languages, frameworks and tools to construct my website. Thes
 
 **W3C CSS Validator**
 W3C CSS Validator
-* Ran style.css though validator to check there were no syntax errors: 
+* Ran style.css through validator to check there were no syntax errors: 
     * Passed with no errors
 
 **User stories**
@@ -187,4 +187,4 @@ Due to the complex nature of Google APIs, I followed a couple of tutorials to he
 * [Google Maps Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
 * [Google Maps Places Tutorial](https://www.youtube.com/watch?v=oVr6unKZbg4)
 
-As advised by my mentor, I decided to add a 'Back To Top' scroll button due to the page being quite long on mobile devices. This isn't something which has been covered in the course material, so I followed the instructions to do this as porovided by [W3Schools](https://www.w3schools.com/).
+As advised by my mentor, I decided to add a 'Back To Top' scroll button due to the page being quite long on mobile devices. This isn't something which has been covered in the course material, so I followed the instructions to do this as provided by [W3Schools](https://www.w3schools.com/).
