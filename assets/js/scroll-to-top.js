@@ -1,10 +1,9 @@
 // Code directed by https://www.w3schools.com/howto
 
-//Get the button:
 mybutton = document.getElementById("to-top-btn");
 
-// When the user scrolls down 50px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// Show the button when the user scrolls down the page 50px
+window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {

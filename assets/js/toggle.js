@@ -11,11 +11,10 @@ $(function(){
    $(".show-more-btn").click(function () {
 
         if ($(this).text() === 'Tell me more...') {
-            $(this).text('Tell me less...')
+            $(this).text('Tell me less...');
     
         } else {
-            $(this).text('Tell me more...')
+            $(this).text('Tell me more...');
         }
     });
-})
-
+});
