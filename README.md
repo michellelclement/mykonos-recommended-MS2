@@ -104,6 +104,8 @@ W3C CSS Validator
 * The 3 category sections are also titled with headers clearly to match the category names.
 * All of these options give the user multiple ways to find the content for the best things to see on Mykonos.
 
+![Show me more... / Show me less... toggle buttons](assets/readme_docs/testing_toggle.jpg)
+
 *As a user, I want to be able to contact the admin of the website to be able to ask for more information.* 
 * A clear Contact Us navigation item is visible on the main navigation bar as soon as the user lands on the site. 
 * This links the user to a Contact Us form at the bottom of the homepage, making it easy for the user to send a message to the site owner, and for the user to not have to leave the site to send the message from an email client.
@@ -118,17 +120,18 @@ W3C CSS Validator
 * The site is expected to take the user to the map section of the website when the ‘Map’ navigation item is clicked.
     * Upon testing, the site acted as expected, taking the user swiftly and simply to the map. (More map and navigation technical tests conducted below.)
 
-
 *As a user, I want to be able to find other places on a map, such as restaurants, cafes, beaches and more.*
 * By installing the Google Places API and a search box, users can type in a search term or specific place.
 * Results are returned by Google Places and marked on the map with a red marker.
 * The map and search bar can be found easily by the user via the main navigation item ‘Map’ 
 
+![Contact navigation, contact form, and map features](assets/readme_docs/testing_screenshots.jpg)
 
 **Further testing**
 * The website as tested on Google Chrome, Internet Explorer and Firefox browsers.
 * The website was viewed on a variety of devices including Desktop, Laptop, iPad, and the mobile options provided by Google chrome developer tools.
 
+**You can find a full document to all the website testing [by clicking here](assets/readme_docs/testing.pdf)
 
 ## Design
 
@@ -166,6 +169,8 @@ All images used on the website were a mix of my own photographs, Google Images o
 * Restaurants – Images from their social media pages or website
 * Ornos & Platis Gialos – Google Images (labelled for reuse with modification)
 * All other photos are my own
+* Apple products mockups for README doc by Vinay Mittal via [Graphic Burger](https://graphicburger.com/)
+* iPhone 6 Mockups for testing and README document obtained from Graphic Burger and created by [p-px](http://p-px.com)
 
 ## Acknowledgements
 Google Maps Custom Icons: I used [Maps Icons Collection](https://mapicons.mapsmarker.com) for the custom markers on the map. The website allowed me to customise the markers to my own colourway before implementing on the website.
