@@ -54,7 +54,9 @@ Search Google Maps Places – Allowing the ability for the user to search for ot
 Contact Form – The contact form is an easy and direct way for the user to ask a question to the site owner. [EmailJS](https://www.emailjs.com/) sends the email directly from the website to the website owner.
 
 ## Features to implement in the future
-
+There are a couple of features I would like to implement in the future to make the map feature even more user friendly.
+* Auto closing of custom marker labels - Custom markers can be closed by clicking the X in the top right cornder, however I would like them to close automatically when another marker is clicked.
+* Show user location on the map - I would like to add this feature so that a user can easily see their location compared to the recomendations. 
 
 ## Technologies Used
 I used a number of languages, frameworks and tools to construct my website. These include;
