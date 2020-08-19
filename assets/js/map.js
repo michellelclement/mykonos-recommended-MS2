@@ -87,13 +87,13 @@ function initMap() {
       map: map,
     });
 
-    // check for customIcon
+    // Check for customIcon
     if (props.iconImage) {
       // set icon image
       marker.setIcon(props.iconImage);
     }
 
-    // Check content
+    // Checks content
     if (props.content) {
       var infoWindow = new google.maps.InfoWindow({
         content: props.content,

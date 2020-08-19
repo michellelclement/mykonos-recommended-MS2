@@ -1,3 +1,5 @@
+// Code as directed by Course material, EmailJS and Michelle
+
 function sendMail(contactForm) {
   emailjs
     .send("gmail", "mykonos_website", {
