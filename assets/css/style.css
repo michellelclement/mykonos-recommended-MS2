@@ -221,7 +221,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .logo {
     max-width: 75%;
   }
@@ -270,7 +270,7 @@ footer {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .jumbotron-section {
     height: 80vh;
     background: url("../images/mobile.png") no-repeat;
