@@ -101,7 +101,6 @@ function initMap() {
 
       marker.addListener("click", function () {
         infoWindow.open(map, marker);
-        infoWindow.close();
       });
     }
   }
