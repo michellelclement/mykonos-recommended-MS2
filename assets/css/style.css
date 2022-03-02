@@ -12,6 +12,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 H1,
